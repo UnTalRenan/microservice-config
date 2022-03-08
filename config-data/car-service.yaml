@@ -5,9 +5,9 @@ eureka:
         fetch-registry: true
         register-with-eureka: true
         service-url:
-            default-zone: http://172.20.0.3:8761/eureka
+            default-zone: http://spring_eureka/eureka
     instance:
         instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-spring:
-    application:
-        zipkin: http://192.168.1.10:9411
+#spring:
+#    application:
+#        zipkin: http://192.168.1.10:9411
