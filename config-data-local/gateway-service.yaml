@@ -21,7 +21,7 @@ spring:
                  uri: lb://user-service
                  predicates:
                     - Path=/user/**
-                 filter: 
+                 filters: 
                     - AuthFilter
                - id: car-service
                  uri: lb://car-service
