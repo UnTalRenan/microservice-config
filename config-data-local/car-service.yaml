@@ -1,5 +1,5 @@
 app:
-    testProd: Hellov1
+    testProd: Hellov2
 server:
     port: ${PORT:${SERVER_PORT:0}}
 eureka:
